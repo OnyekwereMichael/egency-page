@@ -30,7 +30,7 @@ function Home() {
            <button className='text-white p-1 rounded-t rounded-b font-semibold'>Sign up</button>
         </div>
 
-        <button className='bars block md:hidden sm:block' onClick={()=>setMenuopen((prev)=>!prev)} >
+        <button className='bars block md:hidden sm:block' onClick={()=>setMenuopen((prev)=>!prev)}>
             <BiMenuAltRight size={30}/>
         </button>
     </section>
