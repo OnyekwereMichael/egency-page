@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import img from '../ASSESETS/eGENCY.png'
 import bike from '../ASSESETS/bike.png'
-import { BiMenuAltRight } from 'react-icons/bi';
+// import { BiMenuAltRight } from 'react-icons/bi';
 import { motion, useAnimate, useAnimation, useInView} from "framer-motion";
 
 function Home() {
@@ -30,9 +30,9 @@ function Home() {
            <button className='text-white p-1 rounded-t rounded-b font-semibold'>Sign up</button>
         </div>
 
-        <button className='bars block md:hidden sm:block' onClick={()=>setMenuopen((prev)=>!prev)}>
+        {/* <button className='bars block md:hidden sm:block' onClick={()=>setMenuopen((prev)=>!prev)}>
             <BiMenuAltRight size={30}/>
-        </button>
+        </button> */}
     </section>
 
    
