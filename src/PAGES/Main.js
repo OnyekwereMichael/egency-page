@@ -4,7 +4,7 @@ import run from "../ASSESETS/running.png";
 import read from "../ASSESETS/reader.png";
 import seed from "../ASSESETS/seed.png";
 import circle from "../ASSESETS/circle.png"
-import { FaCartPlus, FaMailBulk, FaTicketAlt, FaFacebook, FaTwitter, FaInstagram} from "react-icons/fa";
+
 import board from '../ASSESETS/board.png';
 import { motion, useAnimate, useAnimation, useInView, useDragControls, useInstantTransition } from "framer-motion";
 // import { Swiper, SwiperSlide } from 'swiper/react';
@@ -72,11 +72,11 @@ function Main() {
         <section>
         <div className='flex justify-between items-center gap-4 ml-4 mt-12 p-12 anim font-semibold'>
                <div>
-               <FaCartPlus className="text-yellow-900"/>
+               
                 <p>Lorem ipsum dolor sit amet consect <br/>etur adipisicing elit. Animi hte.</p>
                 </div>
                 <div>
-                    <FaMailBulk className="text-red-900"/>
+                   
                 <p>Lorem ipsum dolor sit amet consect<br/>etur adipis icing elit. Animi h3d.</p>
                 </div>
             </div>
@@ -85,22 +85,22 @@ function Main() {
         <section>
             <div className='flex justify-around items-center gap-12 p-12 stack font-semibold'>
                 <div>
-                <FaFacebook className="text-blue-800"/>
+            
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sunt laboriosam ab quibusdam facilis.</p>
                 </div>
 
                 <div>
-                    <FaTwitter className="text-blue-400"/>
+                    
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sunt laboriosam ab quibusdam facilis.</p>
                 </div>
 
                 <div>
-                    <FaInstagram className="text-pink-800"/>
+                   
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sunt laboriosam ab quibusdam facilis.</p>
                 </div>
 
                 <div>
-                    <FaTicketAlt className="text-orange-700"/>
+                   
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sunt laboriosam ab quibusdam facilis.</p>
                 </div> 
             </div>
